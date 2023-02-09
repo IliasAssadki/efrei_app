@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "186429177887",
+    "project_id": "efrei-v1",
+    "storage_bucket": "efrei-v1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186429177887:android:3af2fae35941057892152a",
+        "android_client_info": {
+          "package_name": "com.example.efrei_v1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186429177887-r10cp3jjm7kv4or9sg1dvvh67ccqev6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7rOk3oxSNe1Efqn9I5MT5bqMmX2y-bP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186429177887-r10cp3jjm7kv4or9sg1dvvh67ccqev6h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

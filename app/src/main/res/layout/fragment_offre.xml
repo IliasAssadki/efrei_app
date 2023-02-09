@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.fragment_offre"
+    android:layout_marginTop="40dp"
+    >
+
+    <TextView
+        android:id="@+id/box"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:background="@drawable/box"
+        android:lines="3"
+        android:maxLines="3"
+        android:text="  Developpeur web - Efrei Paris"
+        android:textColor="@color/bleu"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <TextView
+        android:id="@+id/box1"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/box"
+        android:lines="3"
+        android:maxLines="3"
+        android:text="  Ingénieur logiciel - Dassault Systèmes"
+        android:textColor="@color/bleu"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/box"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <TextView
+        android:id="@+id/box2"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/box"
+        android:lines="3"
+        android:maxLines="3"
+        android:text="  Developpeur web back-end - AllinAppli"
+        android:textColor="@color/bleu"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/box1"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <TextView
+        android:id="@+id/box3"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/box"
+        android:lines="3"
+        android:maxLines="3"
+        android:text="  Developpeur web front-end - CapGemini"
+        android:textColor="@color/bleu"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/box2"
+        tools:layout_editor_absoluteX="30dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
